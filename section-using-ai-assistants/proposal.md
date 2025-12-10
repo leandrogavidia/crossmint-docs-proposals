@@ -30,9 +30,9 @@ https://docs.crossmint.com/llms-full.txt
 
 Learn how to use the **Crossmint Docs MCP Server**
 
-### Server Details
-
 Model Context Protocol (MCP) is a standard that enables AI agents to connect quickly and efficiently to external tools or data sources.
+
+### Server Details
 
 The Crossmint Docs MCP gives your agent the ability to access real-time the Crossmint documentation, which is more efficient than traditional `llms.txt` files. 
 
