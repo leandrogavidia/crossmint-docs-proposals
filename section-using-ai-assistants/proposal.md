@@ -38,9 +38,9 @@ The Crossmint Docs MCP gives your agent the ability to access real-time the Cros
 
 Instead of loading the entire documentation with every interaction the server receives your query and returns only the most relevant sections.
 
-- **Name:** Crossmint Docs
-- **URL:** https://docs.crossmint.com/mcp
-- **Transport:** Streamable HTTP
+- **Name:** Crossmint Docs - The identifier used to reference this MCP server in your AI assistant's configuration
+- **URL:** https://docs.crossmint.com/mcp - The endpoint where the MCP server is hosted and accessible
+- **Transport:** Streamable HTTP - The communication protocol used (HTTP streaming for efficient real-time data transfer)
 
 ### Installation
 
@@ -56,7 +56,7 @@ Depending on the tool you use, the configuration may vary. In this guide we'll s
   </Tab>
 
   <Tab title="Cursor">
-    Add it globally by opening the command palette (`Cmd/Ctrl + Shift + P`) and selecting `> Cursor Settings > MCP > Add new global MCP server`:
+    Add it globally by opening the command palette (`Cmd/Ctrl + Shift + P`) and selecting `> Cursor Settings > Tools & MCP > Add Custom MCP`:
 
     ```json
     {
